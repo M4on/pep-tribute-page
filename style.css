@@ -92,13 +92,21 @@ p{
 }
 
 a{
-    padding: 0px 20px;
+    padding: 0px 5px;
     text-decoration: none;
-    text-decoration-color: none;
+    text-decoration-color: none !important;
     text-align: center;
 }
 
-
-footer a{
+a:link{
+    color: inherit;
     text-decoration-color: none !important;
 }
+
+
+#footer{
+    background-color: transparent;
+    text-align: center !important;
+    display: inline-flex;
+}
+
