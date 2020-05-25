@@ -43,10 +43,13 @@ h4{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
-/* span #seasons{
-    font-size: 20px !important;
+
+img{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
-*/
+
 
 #img-div{
     
@@ -56,14 +59,14 @@ h4{
 }
 
 #image{
-    width: auto;
     max-width: 100%;
-    height: 550px;
+    height: auto;
     text-align: center;
 }
 
 #img-caption{
-    font-size: 20px;
+    font-size: 15px;
+    font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
